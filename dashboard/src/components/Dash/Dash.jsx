@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./Dash.module.scss";
 
 const Dash = () => {
