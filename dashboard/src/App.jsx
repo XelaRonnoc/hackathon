@@ -1,11 +1,11 @@
 import "./App.scss";
 import SideBar from "./components/sideBar/sideBar";
-import DashAlex from "./components/Dash/DashAlex";
+import Main from "./containers/Main/Main";
+
 function App() {
     return (
         <>
-            <SideBar />
-            <DashAlex />
+            <Main />
         </>
     );
 }
