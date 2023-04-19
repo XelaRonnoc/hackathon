@@ -1,13 +1,16 @@
 import "./App.scss";
-import SideBar from "./components/sideBar/sideBar";
+import SideBar from "./components/SideBar/SideBar";
 import Main from "./containers/Main/Main";
 
 function App() {
-    return (
-        <>
-            <Main />
-        </>
-    );
+  return (
+    <>
+      <Main />
+      <br />
+      <br />
+      <br />
+    </>
+  );
 }
 
 export default App;

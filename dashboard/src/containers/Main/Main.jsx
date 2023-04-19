@@ -1,12 +1,15 @@
-import DashStan from "../../components/Dash/DashStan";
-import SideBar from "../../components/sideBar/sideBar";
+import SideBar from "../../components/SideBar/SideBar";
 
+import styles from "./Main.module.scss";
+import Dash from "../../components/Dash/Dash";
+import Header from "../../components/Header/Header";
 const Main = () => {
-    return (
-        <>
-            <DashStan />
-        </>
-    );
+  return (
+    <div className={styles.Main}>
+      <Header />
+      <Dash />
+    </div>
+  );
 };
 
 export default Main;
