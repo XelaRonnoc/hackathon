@@ -1,0 +1,74 @@
+@import "../../theme.scss";
+* {
+  font-family: sans-serif;
+}
+.Dash {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Code {
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 20px;
+  height: 80vh;
+  width: 600px;
+  background-color: white;
+  box-shadow: -10px 5px 5px plum;
+  transition: 2s ease;
+  &:hover {
+    box-shadow: 10px 5px 5px plum;
+  }
+}
+
+.Form {
+  background-color: white;
+  text-align: center;
+}
+
+.Input {
+  height: 30px;
+  border-radius: 7px;
+  padding: 0.25rem;
+}
+.Btn {
+  padding: 12px 24px;
+  border-radius: 7px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background-color: #8c8477;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+
+  &:hover {
+    background-color: plum;
+    color: black;
+  }
+}
+
+p {
+  padding: 10px;
+}
+
+.Repo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  justify-content: center;
+  overflow-y: auto;
+  height: 72.5vh;
+  overflow-x: hidden;
+}
+
+.username {
+  margin-top: 2rem;
+}
+
+.inputHeader {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
